@@ -3,8 +3,9 @@ header{
   background: darkgrey;
 }
 main{
-  height: 30%;
+  height: 80%;
   background-color: lightcyan;
+  display: flex;
 }
 .WHATS{
   width: 30px;
@@ -26,4 +27,9 @@ main{
 .Logo-nnova{
   height: 40px;
   width: 40px;
+}
+.card{
+
+  margin: 10px;
+
 }
