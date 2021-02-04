@@ -1,0 +1,29 @@
+header{
+  width: 100%;
+  background: darkgrey;
+}
+main{
+  height: 30%;
+  background-color: lightcyan;
+}
+.WHATS{
+  width: 30px;
+  height: 30px;
+}
+.face{
+  width: 30px;
+  height: 30px;
+}
+
+.insta{
+  width: 30px;
+  height: 30px;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+}
+.Logo-nnova{
+  height: 40px;
+  width: 40px;
+}
