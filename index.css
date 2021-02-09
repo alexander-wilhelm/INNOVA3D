@@ -49,14 +49,18 @@ main{
 .insta:hover{
   fill: #d6249f;
 }
-.logo{
-  height: 50px;
-  width: 50px;
+.Logo{
+  height: 80px;
+  width: 180px;
+  transition: .6s;
 }
-.Logo-nnova{
-  height: 30px;
-  width: 30px;
+.Logo:hover{
+  fill: rgba(34,14,5,.48);
 }
+.tres:hover{
+  color: rgba(170,210,28,1)
+}
+
 .card{
 
   margin: 10px;
