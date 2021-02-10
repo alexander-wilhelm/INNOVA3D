@@ -1,5 +1,9 @@
+html{
+  scroll-behavior: smooth;
+}
+
 header{
-  width: 100%;
+   width: 100%;
   background: rgba(232,238,251,.47);
 
 }
@@ -7,6 +11,7 @@ footer{
   background: rgba(235,178,99,.21);
 }
 main{
+
   height: 80%;
   margin-left: -15px;
   background-color: beige;
@@ -69,12 +74,4 @@ main{
 .video1{
   height: 286px;
   width: 286px;
-}
-efect{
-  transition: .6s;
-
-}
-.img:hover{
-  fill: rgba(38,168,35,.72);
-
 }
