@@ -70,3 +70,11 @@ main{
   height: 286px;
   width: 286px;
 }
+efect{
+  transition: .6s;
+
+}
+.img:hover{
+  fill: rgba(38,168,35,.72);
+
+}
