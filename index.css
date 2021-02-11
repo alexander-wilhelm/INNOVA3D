@@ -2,29 +2,23 @@ html{
   scroll-behavior: smooth;
 }
 
-.header .navbar {
-  background-color: transparent !important;
-}
-
-
-
 header{
    width: 100%;
-
-
-
+   height: 100%;
+   position: sticky;
+   top: 0;
 
 }
 footer{
   background: rgba(235,178,99,.21);
 }
 main{
+  width: auto;
+  height: 20%;
 
-  height: 80%;
+
   margin-left: -15px;
   background-color: beige;
-  display: flex;
-  background-color: rgba(231,114,29,.66)
 
 }
 .botonn{
@@ -81,11 +75,17 @@ main{
 }
 
 .card{
+  position: unset;
 
-  margin: 10px;
+  margin-top:60px;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 .video1{
   height: 286px;
   width: 286px;
+}
+.hola{
+  position: unset;
 }
