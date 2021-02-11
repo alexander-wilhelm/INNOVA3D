@@ -2,9 +2,17 @@ html{
   scroll-behavior: smooth;
 }
 
+.header .navbar {
+  background-color: transparent !important;
+}
+
+
+
 header{
    width: 100%;
-  background: rgba(232,238,251,.47);
+
+
+
 
 }
 footer{
@@ -16,6 +24,7 @@ main{
   margin-left: -15px;
   background-color: beige;
   display: flex;
+  background-color: rgba(231,114,29,.66)
 
 }
 .botonn{
@@ -61,6 +70,11 @@ main{
 }
 .Logo:hover{
   fill: rgba(34,14,5,.48);
+}
+.mat{
+  width: 20px;
+  height: 30px;
+
 }
 .tres:hover{
   color: rgba(170,210,28,1)
