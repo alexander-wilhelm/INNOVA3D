@@ -3,11 +3,16 @@ html{
 }
 
 header{
+  margin-right: -15px;
 
    width: 100%;
    height: 80%;
-
-
+}
+.navbar-light .navbar-toggler{
+  border-color: white;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)rgba%280, 665, 299, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 footer{
   background: rgba(235,178,99,.21);
@@ -15,7 +20,7 @@ footer{
 main{
   width: auto;
   height: 20%;
-  position: unset;
+  position: static;
 
 
   margin-left: -15px;
@@ -24,7 +29,7 @@ main{
 }
 
 .botonn{
-  transition: background-color .8s;
+  transition: background-color .6s;
 
 }
 .botonn:hover{
@@ -102,9 +107,10 @@ main{
 background-image: url(IMAGENES/fondo.png);
 }
 .perri{
+  position: static;
   transition: .4s;
 }
-.perri:hover{
+.perri:hover {
   filter: brightness(40%);
 }
 .hola{
@@ -113,4 +119,7 @@ background-image: url(IMAGENES/fondo.png);
 .chico{
   height: 268px;
   width: 268px;
+}
+.imagen:hover{
+  color: coral;
 }
