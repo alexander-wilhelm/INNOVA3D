@@ -120,6 +120,10 @@ background-image: url(IMAGENES/fondo.png);
   height: 268px;
   width: 268px;
 }
+.imagen{
+  transition: .5s;
+}
 .imagen:hover{
   color: coral;
+  background-color: rgba(235,114,47,.57);
 }
