@@ -1,139 +1,29 @@
+/* PRINCIPAL */
 html{
+  height:100%;
   scroll-behavior: smooth;
 }
-
+body {
+  margin:0;
+}
 header{
   margin-right: -15px;
-
    width: 100%;
    height: 80%;
-}
-.navbar-light .navbar-toggler{
-  border-color: white;
-}
-.navbar-light .navbar-toggler-icon {
-  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)rgba%280, 665, 299, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-}
-footer{
-  background: rgba(235,178,99,.21);
 }
 main{
   width: auto;
   height: 20%;
   position: static;
-
-
   margin-left: -15px;
-
-
 }
-
-.botonn{
-  transition: background-color .9s;
-
+footer{
+  background: rgba(235,178,99,.21);
 }
-.botonn:hover{
-  background-color: rgba(27,144,175,1);
-}
-
-.WHATS{
-  width: 30px;
-  height: 30px;
-  transition: .3s;
-  fill:rgba(255,255,255,1);
-}
-.WHATS:hover{
-  fill:rgba(41,219,42,.65);
-}
-.face{
-  width: 30px;
-  height: 30px;
-  transition: .3s;
-  fill:rgba(255,255,255,1);
-
-
-}
-.face:hover {
-  fill:rgba(15,119,227,.59)
-}
-
-
-.insta{
-  width: 30px;
-  height: 30px;
-  transition: .3s;
-  fill:rgba(255,255,255,1);
-}
-.insta:hover{
-  fill: #d6249f;
-}
-.Logo{
-  height: 80px;
-  width: 180px;
-  transition: .6s;
-}
-.Logo:hover{
-  fill: rgba(34,14,5,.48);
-}
-.mat{
-  width: 20px;
-  height: 30px;
-
-}
-.tres:hover{
-  color: rgba(170,210,28,1)
-}
-
-.card{
-  position: unset;
-
-  margin-top:15px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-}
-
-.video1{
-  height: 286px;
-  width: 286px;
-}
-.navbar-light .navbar-nav .nav-link{
-  color:rgba(255,255,255,.64);
-}
-
-
-.perri{
-  position: static;
-  transition: .9s;
-}
-.perri:hover {
-  filter: brightness(40%);
-}
-.hola{
-  height: 200px;
-}
-.chico{
-  height: 268px;
-  width: 268px;
-}
-.imagen{
-  transition: .5s;
-}
-.imagen:hover{
-  color: coral;
-  background-color: rgba(235,114,47,.57);
-}
-html {
-  height:100%;
-}
-
-body {
-  margin:0;
-}
-
+/* FONDO ANIMDADO */
 .bg {
   animation: slide 6s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #E34C14 40%, #09f 70%);
+  background-image: linear-gradient(318deg, #e34c14c2 30%, #3c90c7d4 80%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -152,8 +42,6 @@ body {
   animation-duration:5s;
 }
 
-
-
 @keyframes slide {
   0% {
     transform:translateX(-25%);
@@ -162,15 +50,128 @@ body {
     transform:translateX(25%);
   }
 }
+
+/* EL NAVEGADOR */
+.navbar-light .navbar-toggler{
+  border-color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+  color:rgba(255,255,255,.64);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)rgba%280, 665, 299, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+/* BOTON DE LAS TARJETAS CON MOVIMIENTO */
+.botonn{
+  transition: background-color .9s;
+}
+.botonn:hover{
+  background-color: rgba(27,144,175,1);
+}
+/* LOGO DE REDES SOCIALES */
+/* WHATSAPP */
+.WHATS{
+  width: 30px;
+  height: 30px;
+  transition: .5s;
+  fill:rgba(255,255,255,1);
+}
+.WHATS:hover{
+  fill:rgba(41,219,42,.65);
+}
+/* facebook */
+.face{
+  width: 30px;
+  height: 30px;
+  transition: .5s;
+  fill:rgba(255,255,255,1);
+}
+.face:hover {
+  fill:rgba(15,119,227,.59)
+}
+/* INSTAGRAM */
+.insta{
+  width: 30px;
+  height: 30px;
+  transition: .5s;
+  fill:rgba(255,255,255,1);
+}
+.insta:hover{
+  fill: #d6249f;
+}
+/* LOGO INNOVA DE ARRIBA */
+.Logo{
+  height: 80px;
+  width: 180px;
+  transition: .6s;
+}
+.Logo:hover{
+  fill: rgba(34,14,5,.48);
+}
+/* LOGO INNOVA DE ABAJO */
+.debajo{
+  height: 100px;
+  width: 100px;
+  transition: .6s;
+}
+.debajo:hover{
+  fill: rgba(34,14,5,.48);
+}
+/* TAMAÑO DE LOS ICONOS DE MATE Y MACETAS */
+.mat{
+  width: 20px;
+  height: 30px;
+}
+/* GENERAMOS HOVER PARA LOS ICONOS DE MACETA Y MATES */
+.imagen{
+  transition: .5s;
+}
+.imagen:hover{
+  color: coral;
+  background-color: rgba(235,114,47,.57);
+}
+/* TARJETAS DE TODOS LOS PRODUCTOS */
+.card{
+  position: unset;
+  margin-top:15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* TAMAÑO DEL VIDEO DE LOS CORTANTES */
+.video1{
+  height: 286px;
+  width: 286px;
+}
+/* GENERAMOS UN HOVER CON LA CLASE PERRI A LAS IMAGENES DE LOS PRODUCTOS */
+.perri{
+  position: static;
+  transition: .9s;
+}
+.perri:hover {
+  filter: brightness(40%);
+}
+/* TAMAÑO PARA ALGUNOS PRODUCTOS */
+.hola{
+  height: 200px;
+}
+.chico{
+  height: 268px;
+  width: 268px;
+}
+.normal{
+  height: 270px;
+  width: 270px;
+}
+
+/* SECCION MACETAS TIENE TEXTO EN EL MEDIO CON HOVER */
 .macet{
   font-size: 20px;
   background-color:rgba(255,255,255,.07);
   position: sticky;
   display: flex;
   justify-content: center;
+  transition: .6s;
 }
 .macet:hover {
   color: rgba(255,84,0,1);
-
-
 }
