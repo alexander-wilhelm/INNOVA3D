@@ -140,7 +140,6 @@ footer{
 }
 /* TARJETAS DE TODOS LOS PRODUCTOS */
 .card{
-  position: unset;
   margin-top:15px;
   margin-left: 10px;
   margin-right: 10px;
