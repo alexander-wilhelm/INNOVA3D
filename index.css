@@ -178,6 +178,7 @@ footer{
   display: flex;
   justify-content: center;
   transition: .6s;
+  height: 35px;
 }
 .macet:hover {
   color: rgba(255,84,0,1);
