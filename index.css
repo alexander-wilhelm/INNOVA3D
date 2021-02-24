@@ -191,3 +191,14 @@ footer{
 .ico{
   height: 25px;
 }
+.ir-arriba{
+  display: none;
+  padding: 20px;
+  background: rgba(237,176,142,.73);
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
