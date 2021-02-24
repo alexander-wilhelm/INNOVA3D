@@ -130,6 +130,10 @@ footer{
   width: 20px;
   height: 30px;
 }
+.mat2{
+  width: 20px;
+  height: 20px;
+}
 /* GENERAMOS HOVER PARA LOS ICONOS DE MACETA Y MATES */
 .imagen{
   transition: .5s;
