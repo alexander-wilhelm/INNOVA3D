@@ -176,7 +176,7 @@ footer{
 }
 
 /* SECCION MACETAS TIENE TEXTO EN EL MEDIO CON HOVER */
-.macet{
+.barra{
   font-size: 20px;
   background-color:rgba(255,255,255,.07);
   position: sticky;
@@ -185,12 +185,9 @@ footer{
   transition: .6s;
   height: 35px;
 }
-.macet:hover {
+.barra:hover {
   color: rgba(255,84,0,1);
 }
 .ico{
   height: 25px;
-}
-ver{
-  align-items: center;
 }
