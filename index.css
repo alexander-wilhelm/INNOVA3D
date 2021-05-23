@@ -18,6 +18,30 @@ main{
   margin-left: -15px;
 
 }
+#butonArriba{
+    width: 50px;
+    height: 50px;
+    background: #46a2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    position:fixed;
+    bottom: 50px;
+    right: 10px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(1);
+}
+
+#butonArriba:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
 footer{
   background: rgba(235,178,99,.21);
 }
@@ -28,7 +52,7 @@ footer{
 /* FONDO ANIMDADO */
 .bg {
   animation: slide 6s ease-in-out infinite alternate;
-  background-image: linear-gradient(318deg, #e34c14c2 30%, #3c90c7d4 80%);
+  background-image: linear-gradient(318deg, #f78a4bc2 30%, #9c887fd4 80%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -145,9 +169,23 @@ footer{
 }
 /* TARJETAS DE TODOS LOS PRODUCTOS */
 .card{
+  border-radius: 10px;
   margin-top:15px;
   margin-left: 10px;
   margin-right: 10px;
+  box-shadow: -6px 6px 4px rgba(53, 52, 52, 0.295);
+  
+  
+}
+/*Precio de los productos*/
+.price{
+  background-color: #46a2fd;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-size: 20px;
+
+
 }
 /* TAMAÑO DEL VIDEO DE LOS CORTANTES */
 .video1{
@@ -156,6 +194,8 @@ footer{
 }
 /* GENERAMOS UN HOVER CON LA CLASE PERRI A LAS IMAGENES DE LOS PRODUCTOS */
 .perri{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   position: static;
   transition: .9s;
 }
@@ -164,13 +204,19 @@ footer{
 }
 /* TAMAÑO PARA ALGUNOS PRODUCTOS */
 .hola{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 200px;
 }
 .chico{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 268px;
   width: 268px;
 }
 .normal{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 270px;
   width: 270px;
 }
@@ -191,3 +237,4 @@ footer{
 .ico{
   height: 25px;
 }
+
