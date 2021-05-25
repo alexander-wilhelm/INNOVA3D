@@ -27,7 +27,7 @@ main{
     align-items: center;
     color: white;
     border-radius: 50%;
-    font-size: 10px;
+    font-size: 15px;
     position:fixed;
     bottom: 50px;
     right: 10px;
@@ -58,7 +58,7 @@ footer{
 /* FONDO ANIMDADO */
 .bg {
   animation: slide 6s ease-in-out infinite alternate;
-  background-image: linear-gradient(318deg, #f78a4bc2 30%, #9c887fd4 80%);
+  background-image: linear-gradient(318deg, #d2501f69  30%, #5d5c5c75 80%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -99,6 +99,7 @@ footer{
 .dropdown-menu{
   background-color:rgba(255,255,255,.56);
 }
+
 
 /* BOTON DE LAS TARJETAS CON MOVIMIENTO */
 .botonn{
@@ -242,5 +243,12 @@ footer{
 }
 .ico{
   height: 25px;
+}
+.seccion{
+  width: 0%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

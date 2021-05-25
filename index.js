@@ -21,10 +21,10 @@ window.onscroll = function(){
 
     var scroll = document.documentElement.scrollTop;
 
-    if (scroll > 800){
+   /* if (scroll > 800){
         botonArriba.style.transform = "scale(1)";
     }else if(scroll < 800){
         botonArriba.style.transform = "scale(0)";
-    }
+    }*/
 
 }
