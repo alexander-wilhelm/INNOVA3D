@@ -58,7 +58,7 @@ footer{
 /* FONDO ANIMDADO */
 .bg {
   animation: slide 6s ease-in-out infinite alternate;
-  background-image: linear-gradient(318deg, #d2501f69  30%, #5d5c5c75 80%);
+  background-image: linear-gradient(318deg, #3f393769  30%, #5d5c5c75 80%);
   bottom:0;
   left:-50%;
   opacity:.5;
