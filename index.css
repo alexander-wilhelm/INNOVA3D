@@ -184,6 +184,16 @@ footer{
   
   
 }
+.oferta{
+
+  border-radius: 10px;
+  position:unset;
+  background-color: #d86214;
+  color: aliceblue;
+  
+
+
+}
 /*Precio de los productos*/
 .price{
   background-color: #46a2fd;
